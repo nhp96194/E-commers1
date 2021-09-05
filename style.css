@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.manu{
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.logo{
+    font-size: 36px;
+    color: coral;
+    line-height: 70px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.shop{
+    color: chartreuse;
+}
+
+ul{
+    float: right;
+    margin-right: 50px;
+}
+li{
+    display: inline-block;
+    line-height: 70px;
+}
+li a{
+    margin-right: 40px;
+    color: springgreen;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 2px 15px;
+    transition: 1s;
+}
+a:hover{
+    color: gold;
+    border: 2px solid springgreen;
+
+}
+
+.banner-img{
+    background-image: linear-gradient(rgba(4,255,30,0.2),rgba(4,255,30,0.6)),url(images/b3.jpg);
+    height: 590px;
+}
+.banner-text{
+    padding-top: 170px;
+    margin-left: 150px;
+}
+h6{
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 8px;
+    
+}
+.header1{
+    font-size: 86px;
+    color: coral;
+}
+.style{
+    color: yellow;
+}
+
+.icon{
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.icon2{
+    margin-left: 40px;
+    border: 0.1px solid black;
+    padding: 50px 50px;
+}
+.ico{
+    align-items: center;
+    size: large;
+}
+.hh{
+    color: dodgerblue;
+    text-align: center;
+    margin-top: -10px;
+}
+h2{
+    font-size: 36px;
+    margin-top: 20px;
+    color: deepskyblue;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    margin: 5px;
+}
+.speed{
+    text-align: center;
+}
+
+.product{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    height: 250px;
+}
+
+.product-img{
+    margin-left: 55px;
+    padding-left: 3px;
+    width: 18%;
+    border: 1px solid black;
+    height: 260px;
+    text-align: center;
+}
+.let{
+    padding: 5px;
+
+}
+.banner-img2{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(4,255,30,0.2),rgba(4,255,30,0.6));
+    background-color: deepskyblue;
+    
+}
+.png{
+  margin-left: 150px; 
+  height: 400px; 
+}
+.text4{
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 250px;  
+}
+.text2{
+    font-size: 86px;
+    color: red;
+    font-weight: bold;
+}
+.text3{
+    color: white;
+    font-size: 18px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: wheat;
+    border: 2px solid yellow;
+    background-color: dodgerblue;
+    padding: 5px 60px;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    clear: both;
+}
+.hero-btn:hover{
+    border: 2px solid crimson;
+    background-color: red;
+    padding: 5px 60px;
+    transition: 0.4s;
+}
+.p{
+    color: white;
+}
+
+
+/*--------new product------*/
+
+.new{
+    display: flex;
+    margin: 15px 30px;
+}
+.new-product{
+    margin-left: 40px;
+    border: 1px solid black;
+    height: 300px;
+}
+
+.All{
+    height: 1500px;
+    width: 100%;
+}
+
+.all-product{
+    float: left;
+    margin-top: 20px;
+    margin-left: 66px;
+    border: 1px solid black;
+}
+.p3{
+    margin-left: 15px;
+
+}
+
+/*-------fottar---------*/
+
+.fottar{
+    background-color: darkslateblue;
+    height: 300px;
+    width: 100%;
+}
+.fottar-text{
+    float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: white;
+
+}
+h4{
+    color: deeppink;
+    font-size: 24px;
+}
