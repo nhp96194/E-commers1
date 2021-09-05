@@ -39,10 +39,16 @@ li a{
     padding: 2px 15px;
     transition: 1s;
 }
+
 a:hover{
     color: gold;
     border: 2px solid springgreen;
 
+}
+a.active,a:hover{
+    border: 2px solid yellow;
+    transition: 1s;
+    color: yellow;
 }
 
 .banner-img{
@@ -218,4 +224,14 @@ h5{
 h4{
     color: deeppink;
     font-size: 24px;
+}
+.button{
+    margin-top: 10px;
+}
+.button1{
+    margin-top: 30px;
+    color: red;
+    background-color: blue;
+    border: 1px solid coral;
+    padding: 3px;
 }

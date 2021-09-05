@@ -4,20 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Woman</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.manu{
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.logo{
+    font-size: 36px;
+    color: coral;
+    line-height: 70px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.shop{
+    color: chartreuse;
+}
+
+ul{
+    float: right;
+    margin-right: 50px;
+}
+li{
+    display: inline-block;
+    line-height: 70px;
+}
+li a{
+    margin-right: 40px;
+    color: springgreen;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 2px 15px;
+    transition: 1s;
+}
+a:hover{
+    color: gold;
+    border: 2px solid springgreen;
+
+}
+a.active,a:hover{
+    border: 2px solid yellow;
+    transition: 1s;
+    color: yellow;
+}
+
+.banner-img{
+    background-image: linear-gradient(rgba(180,255,30,0.2),rgba(180,255,30,0.6)),url(images/b7.webp);
+    background-size: cover;
+    width: 100%;
+    height: 590px;
+}
+.banner-text{
+    padding-top: 170px;
+    margin-left: 150px;
+}
+h6{
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 8px;
     
+}
+.header1{
+    font-size: 86px;
+    color: cyan;
+}
+.hero-btn{
+    background-color: deepskyblue;
+    padding: 5px;
+}
+.All{
+    height: 1550px;
+    width: 100%;
+}
+
+.all-product{
+    float: left;
+    margin-top: 20px;
+    margin-left: 66px;
+    border: 1px solid black;
+}
+.p3{
+    margin-left: 15px;
+
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: gold;
+    font-weight: bold;
+
+}
+.speed{
+    text-align: center;
+    font-size: 20px;
+    color: greenyellow;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: wheat;
+    border: 2px solid yellow;
+    background-color: dodgerblue;
+    padding: 5px 60px;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    clear: both;
+}
+.hero-btn:hover{
+    border: 2px solid crimson;
+    background-color: red;
+    padding: 5px 60px;
+    transition: 0.4s;
+}
+
+.fottar{
+    background-color: darkslateblue;
+    height: 300px;
+    width: 100%;
+}
+.fottar-text{
+    float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: white;
+
+}
+h4{
+    color: deeppink;
+    font-size: 24px;
+}
+.button{
+    margin-top: 10px;
+}
+.button1{
+    margin-top: 30px;
+    color: red;
+    background-color: darksalmon;
+    border: 1px solid coral;
+    padding: 3px;
+    letter-spacing: 2px;
+}
+    </style>
 </head>
 <body>
     <div class="manu">
         <label class="logo">Online <span class="shop">Shop</span></label>
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="man.html">Man</a></li>
-            <li><a href="woman.html">Woman</a></li>
-            <li><a href="product.html">Product</a></li>
+            <li><a class="active" href="woman.html">Woman</a></li>
+            <li><a href="product.html">Proudact</a></li>
             <li><a href="contract.html">Contract</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
@@ -25,7 +178,7 @@
 
     <div class="banner-img">
         <div class="banner-text">
-            <h6>Man & Woman Collection</h6>
+            <h6>Woman Collection</h6>
             <h1 class="header1"><span class="style">Show</span> Your <br>Prsonal <span class="style">Style</span></h1>
             <div class="btn">
                 <a href="about.html" class="hero-btn">DISCOVER NOW</a>
@@ -33,122 +186,25 @@
         </div>
     </div>
 
-    <div class="icon">
-        <div class="icon2">
-          <h2 class="hh">100%</h2>
-          <h5>Mony Back Granti</h5>
-          <p>shall open divide a open</p>
-        </div>
-        <div class="icon2">
-            <h2 class="hh">100%</h2>
-            <h5>Mony Back Granti</h5>
-            <p>shall open divide a open</p>
-        </div>
-        <div class="icon2">
-            <h2 class="hh">100%</h2>
-            <h5>Mony Back Granti</h5>
-            <p>shall open divide a open</p>
-        </div>
-        <div class="icon2">
-            <h2 class="hh">100%</h2>
-            <h5>Mony Back Granti</h5>
-            <p>shall open divide a open</p>
-        </div>
-    </div>
-
-    <div class="featured">
-        <h2>FEATURED PRODUCT</h2>
-        <P class="speed">Bring called speed</P>
-        <div class="product">
-            <div class="product-img">
-                <img src="images/1.webp" height="200px">
-                <p class="let">letest ladis bag</p>
-                <a href="">$500</a>
-            </div>
-            <div class="product-img">
-                <img src="images/2.jpg" height="200px">
-                <p class="let">letest shoes</p>
-                <a href="">$1000</a>
-            </div>
-            <div class="product-img">
-                <img src="images/3.jpg" height="200px">
-                <p class="let">letest wach</p>
-                <a href="">$1500</a>
-            </div>
-            <div class="product-img">
-                <img src="images/4.png" height="200px">
-                <p class="let">letest man t-shart</p>
-                <a href="">$600</a>
-            </div>
-
-
-        </div>
-    </div>
-<div class="banner-cover">  
-    <div class="banner-img2">
-        <div class="banner-text2">
-            <img class="png" src="images/06.png">
-            <div class="text4">
-                <h3 class="text3">ALL MAN'S COLLECTION</h3>
-                <h1 class="text2">50% OFF</h1>
-                <div class="btn">
-                    <a href="about.html" class="hero-btn">DISCOVER NOW</a>
-                </div>
-                <p class="p">Limited Time Offer</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-------new product------>
-
-<div class="new1">
-    <h2>New Proudact</h2>
-    <P class="speed">Bring called speed first of third give itself now ment</P>
-    
-   <div class="new">
-       <div class="new-product">
-           <img src="images/8.png" height="250px">
-           <div class="btn">
-            <a href="about.html" class="hero-btn">$500</a>
-        </div>
-       </div>
-       <div class="new-product">
-        <img src="images/10.jpg" height="250px">
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$600</a>
-        </div>
-    </div>
-    <div class="new-product">
-        <img src="images/11.jpg" height="250px">
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$300</a>
-        </div>
-    </div>
-    <div class="new-product">
-        <img src="images/12.jpg" height="250px">
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$700</a>
-        </div>
-    </div>
-   </div>
-
-</div>
-
-<!-------All product-------->
-
 <div class="All">
     <h2>INSPIRED PRODUCT</h2>
     <P class="speed">Bring called speed first of third give itself now ment</P>
     <div class="all-product">
-        <img src="images/13.jpg" height="250px" width="250px">
+        <img src="images/1.webp" height="250px" width="250px">
         <p class="p3">Letest Collection Products</p>
         <div class="btn">
             <a href="about.html" class="hero-btn">$700</a>
         </div>
     </div>
     <div class="all-product">
-        <img src="images/14.jpg" height="250px" width="250px">
+        <img src="images/12.jpg" height="250px" width="250px">
+        <p class="p3">Letest Collection Products</p>
+        <div class="btn">
+            <a href="about.html" class="hero-btn">$700</a>
+        </div>
+    </div>
+    <div class="all-product">
+        <img src="images/11.jpg" height="250px" width="250px">
         <p class="p3">Letest Collection Products</p>
         <div class="btn">
             <a href="about.html" class="hero-btn">$700</a>
@@ -177,34 +233,6 @@
     </div>
     <div class="all-product">
         <img src="images/18.jpg" height="250px" width="250px">
-        <p class="p3">Letest Collection Products</p>
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$700</a>
-        </div>
-    </div>
-    <div class="all-product">
-        <img src="images/37.jpg" height="250px" width="250px">
-        <p class="p3">Letest Collection Products</p>
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$700</a>
-        </div>
-    </div>
-    <div class="all-product">
-        <img src="images/20.jpg" height="250px" width="250px">
-        <p class="p3">Letest Collection Products</p>
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$700</a>
-        </div>
-    </div>
-    <div class="all-product">
-        <img src="images/21.webp" height="250px" width="250px">
-        <p class="p3">Letest Collection Products</p>
-        <div class="btn">
-            <a href="about.html" class="hero-btn">$700</a>
-        </div>
-    </div>
-    <div class="all-product">
-        <img src="images/22.webp" height="250px" width="250px">
         <p class="p3">Letest Collection Products</p>
         <div class="btn">
             <a href="about.html" class="hero-btn">$700</a>
@@ -246,16 +274,41 @@
         </div>
     </div>
     <div class="all-product">
-        <img src="images/28.jpg" height="250px" width="250px">
+        <img src="images/31.jpg" height="250px" width="250px">
         <p class="p3">Letest Collection Products</p>
         <div class="btn">
             <a href="about.html" class="hero-btn">$700</a>
         </div>
     </div>
-
+    
+    <div class="all-product">
+        <img src="images/36.jpg" height="250px" width="250px">
+        <p class="p3">Letest Collection Products</p>
+        <div class="btn">
+            <a href="about.html" class="hero-btn">$700</a>
+        </div>
+    </div>
+    
+    <div class="all-product">
+        <img src="images/37.jpg" height="250px" width="250px">
+        <p class="p3">Letest Collection Products</p>
+        <div class="btn">
+            <a href="about.html" class="hero-btn">$700</a>
+        </div>
+    </div>
+    
+    <div class="all-product">
+        <img src="images/38.jpg" height="250px" width="250px">
+        <p class="p3">Letest Collection Products</p>
+        <div class="btn">
+            <a href="about.html" class="hero-btn">$700</a>
+        </div>
+    </div>
+    
+    
 </div>
 
-<!------fotar------->
+
 <div class="fottar">
     <div class="fottar-text">
         <h4>Top Product</h4>
@@ -301,5 +354,8 @@
         </div>
     </div>
 </div>
+
+
+    
 </body>
 </html>
